@@ -7,19 +7,19 @@ import MaleDoc1 from './../Image/MaleDoctor1.jpg'
 export const DoctorProfile = () => {
   const { name } = useParams();
 
-  // // Assuming you have the necessary data for a doctor
-  // const doctorDetails = {
-  //   name: 'Dr. John Doe',
-  //   age: 46,
-  //   experience: '1 years',
-  //   availableTime: '9:00 AM - 5:00 PM',
-  //   //profilePicture: 'C:\Users\Asus\Desktop\DoctorManagementSystem-main(1)\DoctorManagementSystem\DoctorManagementSustem\view\src\Image\MaleDoctor1.jpg', // Add the path or URL to the profile picture
-  //   appointments: [
-  //     { time: '10:00 AM', patient: 'Patient 1' },
-  //     { time: '2:30 PM', patient: 'Patient 2' },
-  //     // Add more appointments as needed
-  //   ],
-  // };
+  // Assuming you have the necessary data for a doctor
+  const doctorDetails = {
+    name: 'Dr. John Doe',
+    age: 46,
+    experience: '1 years',
+    availableTime: '9:00 AM - 5:00 PM',
+    profilePicture: 'C:\Users\Asus\Desktop\DoctorManagementSystem-main(1)\DoctorManagementSystem\DoctorManagementSustem\view\src\Image\MaleDoctor1.jpg', // Add the path or URL to the profile picture
+    appointments: [
+      { time: '10:00 AM', patient: 'Patient 1' },
+      { time: '2:30 PM', patient: 'Patient 2' },
+      // Add more appointments as needed
+    ],
+  };
 
   return (
     
